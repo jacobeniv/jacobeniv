@@ -1,0 +1,35 @@
+{
+  "brand": "Rave with Jacob",
+  "tagline": "Underground nights, one record at a time",
+  "brief": "A personal brand for a DJ and rave night, Rave with Jacob. It has to feel loud, dark and hand-made, read instantly on a flyer or a 16 px tab, and stand apart from generic EDM neon.",
+  "adjectives": ["raw", "electric", "nocturnal", "personal"],
+  "criteria": "Success: owns the J, nods to vinyl without drawing a turntable, works in one colour, survives 16 px.",
+  "industry": "event",
+  "nav": ["Events", "Mixes", "Tickets"],
+  "brand_color": "#C6FF00",
+  "tile_color": "#0B0B0F",
+  "greyscale": false,
+  "final": true,
+  "designer": "Rave with Jacob",
+  "concepts": [
+    {
+      "name": "Vinyl J",
+      "symbol": "master/symbol.svg",
+      "lockup": "master/lockup-horizontal.svg",
+      "stacked": "master/lockup-stacked.svg",
+      "symbol_on_tile": "variants/symbol-mono-c6ff00.svg",
+      "symbol_on_dark": "variants/symbol-mono-c6ff00.svg",
+      "lockup_on_dark": "master/lockup-horizontal-transparent-dark-bg.svg",
+      "stacked_on_dark": "master/lockup-stacked-transparent-dark-bg.svg",
+      "stacked_on_tile": "master/lockup-stacked-transparent-dark-bg.svg",
+      "idea": "The J's hook is half a spinning record: one groove, one spindle.",
+      "rationale": [
+        "A letter mark that belongs to Jacob, not to a genre",
+        "Vinyl is implied by a single groove, not drawn literally",
+        "Acid green on night black reads like a club light, yet works in pure black",
+        "Small-size cut drops the groove so the favicon stays crisp"
+      ]
+    }
+  ],
+  "recommendation": "Vinyl J with the stacked RAVE WITH / JACOB name."
+}
