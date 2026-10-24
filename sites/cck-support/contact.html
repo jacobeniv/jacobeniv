@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Contact Us | CCK Support Home Care</title>
+<meta name="description" content="Call CCK Support on 01227 668 041 or send us a message to book a free home care assessment in Herne Bay, Whitstable and nearby.">
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body data-page="contact">
+<div id="site-header"></div>
+
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <p class="crumbs"><a href="index.html">Home</a> / Contact</p>
+      <h1 data-split>We are here to help</h1>
+      <p class="lead">Call us for advice, to ask about prices, or to book your free home visit. Prefer to write? Send a message and we will get back to you as soon as we can.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap contact-grid">
+      <ul class="info-list reveal">
+        <li><span class="ic" data-icon="phone"></span><div><b>Call the office</b><a data-tel href="#">01227 668 041</a></div></li>
+        <li><span class="ic" data-icon="mail"></span><div><b>Email us</b><a href="mailto:info@ccksupport.co.uk">info@ccksupport.co.uk</a></div></li>
+        <li><span class="ic" data-icon="clock"></span><div><b>Office hours</b>Monday to Friday, 8am to 5pm<br>Out of hours service when the office is closed</div></li>
+        <li><span class="ic" data-icon="pin"></span><div><b>Visit us</b>CCK Support Limited, Building 1, 10 Wealden Forest Park, Herne Common, Herne Bay, Kent CT6 7LQ</div></li>
+        <li><span class="ic" data-icon="fb"></span><div><b>Follow us</b><a href="https://www.facebook.com/ccksupport" target="_blank" rel="noopener">facebook.com/ccksupport</a></div></li>
+      </ul>
+
+      <form class="card reveal d1" data-demo>
+        <h3 style="margin-bottom:6px">Send us a message</h3>
+        <p style="margin-bottom:22px;font-size:.96rem">Tell us a little about who needs care and we will call you back.</p>
+        <div class="field-row">
+          <div class="field"><label for="name">Your name</label><input id="name" name="name" required autocomplete="name"></div>
+          <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
+        </div>
+        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required autocomplete="email"></div>
+        <div class="field">
+          <label for="about">I am asking about</label>
+          <select id="about" name="about">
+            <option>Care for myself</option>
+            <option>Care for a family member</option>
+            <option>A free home assessment</option>
+            <option value="job">Working for CCK</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="field"><label for="msg">Message</label><textarea id="msg" name="message" rows="5" required></textarea></div>
+        <button class="btn btn-primary" type="submit">Send message <span data-icon="arrow"></span></button>
+        <!-- DEMO: this form is not connected to email yet -->
+        <p class="form-ok" role="status">Thank you! This is a preview site, so your message was not sent. Please call 01227 668 041.</p>
+      </form>
+    </div>
+  </section>
+
+  <section class="section bg-mint" style="padding-top:0;background:linear-gradient(#fff 0 50%,var(--mint) 50%)">
+    <div class="wrap">
+      <div class="map reveal">
+        <iframe title="Map showing CCK Support at Wealden Forest Park, Herne Common" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=CCK%20Support%20Ltd%2C%20Wealden%20Forest%20Park%2C%20Herne%20Common%20CT6%207LQ&z=14&output=embed"></iframe>
+      </div>
+      <div class="section-head center reveal" style="margin:56px auto 0">
+        <span class="eyebrow">Areas we cover</span>
+        <h2>Herne Bay, Whitstable and the villages around them</h2>
+        <!-- CONFIRM: towns below are where their testimonials come from; check they still cover all of them -->
+        <div class="chips" style="justify-content:center;margin-top:24px">
+          <span class="chip">Herne Bay</span><span class="chip">Whitstable</span><span class="chip">Herne</span><span class="chip">Sturry</span>
+          <span class="chip">Blean</span><span class="chip">Canterbury</span><span class="chip">Bridge</span><span class="chip">Faversham</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script>
+  // Pre-select "Working for CCK" when arriving from the careers button
+  if (new URLSearchParams(location.search).get('subject') === 'job') document.addEventListener('DOMContentLoaded', () => { document.getElementById('about').value = 'job'; });
+</script>
+</body>
+</html>
